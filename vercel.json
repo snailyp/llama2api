@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/llama2api.py"
+    }
+  ],
+  "functions": {
+    "*.py": {
+      "maxDuration": 60
+    }
+  }
+}
